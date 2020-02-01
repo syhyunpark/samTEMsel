@@ -3,7 +3,7 @@ Type: Package
 Title: Sparse Additive Models for Treatment Effect-Modifier Selection
 Version: 0.1.0
 Author: Park, H., Petkova, E., Tarpey, T., Ogden, R.T. 
-Maintainer: Hyung G. Park <parkh15@nyu.edu>
+Maintainer: Hyung Park <parkh15@nyu.edu>
 Description: An implementation of a constrained sparse additive regression for modeling interaction effects between a categorical treatment variable and a set of pretreatment covariates on a scalar-valued outcome; the regression simultaneousely conducts treatment effect-modifier variable selection. The method can effectively identify treatment effect-modifiers exhibiting possibly nonlinear interactions with the treatment. The selected pretreatment characteristics and the associated nonzero component functions can be used as a new set of data-driven features for making individualized treatment recommendations in further analysis. We refer to Park, Petkova, Tarpey, and Ogden (2020) <doi:10.1016/j.jspi.2019.05.008> and Park, Petkova, Tarpey, and Ogden (2020) "A constrained sparse additive model for treatment effect-modifier selection" (pre-print) for detail of the method. The wrapper function of this package is cv.samTEMsel().
 License: GPL-3
 Imports: SAM, stats, splines, graphics
